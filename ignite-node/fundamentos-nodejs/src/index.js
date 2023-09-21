@@ -22,7 +22,7 @@ app.put("/courses/:id", (request, response) => {
 })
 
 app.patch("/courses/:id", (request, response) => {
-    return response.json(["Curso 6", "curso 7", "curso 8"]);
+    return response.json(["Curso 6", "curso 7", "curso 89"]);
 })
 
 app.delete("/courses/:id", (request, response) => {
