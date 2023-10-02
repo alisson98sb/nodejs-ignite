@@ -2,7 +2,7 @@ import { v4 as uuidV4 } from "uuid";
 
 
 class Category {
-  id? : string;  //Como estamos usando a biblioteca uuid, salvaremos como string
+  id? : string;  //Como estamos usando a biblioteca uuid, salvaremos como stringg
   name: string;
   description: string;
   created_at: Date;
